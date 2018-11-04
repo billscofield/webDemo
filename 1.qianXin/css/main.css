@@ -1,0 +1,242 @@
+a{
+    color:#444;
+}
+header{
+    overflow:hidden;
+    width:1200px;
+    margin:0 auto;
+}
+header .logo{
+    overflow:hidden;
+    float:left;
+}
+header .logo a{
+    display:inline-block;
+    overflow:hidden;
+    line-height:0;
+}
+header .logo img{
+    margin: 0;
+    padding: 0;
+    margin-top:5px;
+}
+header .menu{
+    float:right;
+    overflow:hidden;
+}
+ul{
+    list-style:none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    margin-right:1em;
+}
+header ul a{
+    display:inline-block;
+    line-height: 50px;
+}
+ul li{
+    display:inline-block;
+}
+ul li:not(:last-child)::after{
+    content:'';
+    display:inline-block;
+    position:relative;
+    width:0;
+    height: 12px;
+    border:0 none;
+    border-left:2px solid #444;
+    margin:0 10px;
+    margin-right:8px;
+}
+
+/* ----------------banner begins------------------- */
+.banner{
+    position:relative;
+    font-weight:900;
+    color:#444444;
+    width:1200px;
+    margin:0 auto;
+}
+.banner img{
+    max-width:100%;
+}
+.banner .title{
+    position:absolute;
+    font-size:30px;
+    top:40%;
+    left:50%;
+    margin-left:-275px;
+    margin-top:-20px;
+    text-align:center;
+}
+.banner .title .subtitle{
+    font-size:.5em;
+    margin-left:-0.5em;
+}
+.banner span{
+    margin:0 .6em;
+}
+
+/* ----------------banner ends ------------------ */
+
+/* 轮播图 begins*/
+.lunbo{
+    height:600px;
+    background:#ccc;
+    position:relative;
+}
+.lunbo .main{
+    width:800px;
+    height:600px;
+    background:green;
+    position:absolute;
+    left:50%;
+    top:0%;
+    margin-left:-400px;
+    margin-top:0px;
+}
+/* 轮播图 ends*/
+
+
+/* 走进乾信 begins */
+.intoQianXin{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+    margin-bottom:10px;
+}
+.intoQianXin .juzhong{
+    text-align:center;
+}
+
+.intoQianXin .subtitle{
+    border:1px solid #333;
+    display:block;
+    width:200px;
+    line-height:25px;
+    margin:0 auto;
+    z-index:2;
+}
+.intoQianXin hr{
+    width:100%;
+    /* position:absolute; */
+    /* top:22px; */
+    margin:10px 0;
+    padding: 0;
+}
+
+.intoQianXin .desc{
+    font-size:0;
+    width:1200px;
+    overflow:hidden;
+    height:400px;
+}
+.intoQianXin p{
+    margin: 0;
+    padding: 0;
+}
+.intoQianXin .about{
+    font-size:16px;
+    float:left;
+    margin-left:100px;
+    padding:10px 20px;
+    width:300px;
+    height:380px;
+    overflow:hidden;
+}
+.intoQianXin .title{
+    font-size:1.5em;
+    margin-bottom:1em;
+}
+.intoQianXin .content{
+    line-height:2;
+}
+.intoQianXin .company{
+    float:left;
+}
+.intoQianXin .chicken{
+    float:right;
+}
+/* 走进乾信 ends*/
+
+
+
+
+/* 脚注 begins */
+footer{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    background:#333;
+    color:#fff;
+}
+
+footer dt{
+    font-weight:600;
+    margin-bottom:5px;
+}
+footer dd{
+    line-height:25px;
+}
+
+footer .one{
+    width:200px;
+    text-align:center;
+    float:left;
+}
+
+dd{
+    margin: 0;
+    padding: 0;
+}
+footer .one a{
+    color:#fff;
+}
+
+footer .two{
+    float:left;
+    width:300px;
+    vertical-align:top;
+    margin-left:50px;
+}
+footer .two .left{
+    float:left;
+}
+footer .two .right{
+    float:left;
+    display:inline-block;
+    width:200px;
+}
+
+footer .three{
+    position:relative;
+    float:left;
+    overflow:hidden;
+    width:200px;
+    margin-left:100px;
+    padding:15px;
+}
+
+footer .three img{
+    max-width:80%;
+}
+
+footer .four{
+    position:relative;
+    float:right;
+    margin-right:10px;
+    margin-top:50px;
+}
+/* 脚注 ends*/
+
+
+
+.clearance::before,.clearance::after{
+    display:table;
+    content:'';
+}
+.clearance::after{
+    clear:both;
+}
